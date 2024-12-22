@@ -1,2 +1,3 @@
 # Chess
-[Untitled whiteboard (1).pdf](https://github.com/user-attachments/files/18222459/Untitled.whiteboard.1.pdf)
+
+![Untitled whiteboard (1) (1)](https://github.com/user-attachments/assets/061774a7-5f7a-4c4c-8abe-d1aad7b56a8e)
