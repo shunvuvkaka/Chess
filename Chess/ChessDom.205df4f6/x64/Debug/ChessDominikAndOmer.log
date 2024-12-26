@@ -1,0 +1,160 @@
+﻿  stdafx.cpp
+  Board.cpp
+  King.cpp
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(12,8): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'Board.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(17,14): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'Board.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(18,27): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'Board.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(19,17): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'Board.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(20,17): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'Board.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(24,7): error C3646: '_pos': unknown override specifier
+  (compiling source file 'Board.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(24,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Board.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(12,8): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'King.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(17,14): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'King.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(18,27): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'King.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(19,17): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'King.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(20,17): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'King.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(24,7): error C3646: '_pos': unknown override specifier
+  (compiling source file 'King.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(24,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'King.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,13): error C2065: 'Tile': undeclared identifier
+  (compiling source file 'King.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,7): error C2923: 'std::array': 'Tile' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'King.cpp')
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,13):
+  see declaration of 'Tile'
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,13): error C2065: 'Tile': undeclared identifier
+  (compiling source file 'King.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,7): error C2923: 'std::array': 'Tile' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'King.cpp')
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,13):
+  see declaration of 'Tile'
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\King.h(12,7): error C3668: 'King::IsValidMove': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'King.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\King.cpp(6,25): error C2059: syntax error: ']'
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\King.cpp(7,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\King.cpp(10,2): error C2561: 'King::IsValidMove': function must return a value
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\King.cpp(3,12):
+  see declaration of 'King::IsValidMove'
+  
+  Piece.cpp
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,13): error C2065: 'Tile': undeclared identifier
+  (compiling source file 'Piece.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,7): error C2923: 'std::array': 'Tile' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Piece.cpp')
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,13):
+  see declaration of 'Tile'
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,13): error C2065: 'Tile': undeclared identifier
+  (compiling source file 'Piece.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,7): error C2923: 'std::array': 'Tile' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Piece.cpp')
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,13):
+  see declaration of 'Tile'
+  
+  Rook.cpp
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(12,8): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(17,14): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(18,27): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(19,17): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(20,17): error C2061: syntax error: identifier 'Tile'
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(24,7): error C3646: '_pos': unknown override specifier
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(24,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,13): error C2065: 'Tile': undeclared identifier
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,7): error C2923: 'std::array': 'Tile' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Rook.cpp')
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,13):
+  see declaration of 'Tile'
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,13): error C2065: 'Tile': undeclared identifier
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,7): error C2923: 'std::array': 'Tile' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Rook.cpp')
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,13):
+  see declaration of 'Tile'
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Rook.h(13,7): error C3668: 'Rook::IsValidMove': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Rook.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Rook.cpp(5,16): error C2660: 'Piece::IsSameCol': function does not take 1 arguments
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(20,7):
+  see declaration of 'Piece::IsSameCol'
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Rook.cpp(5,16):
+  while trying to match the argument list '(Tile)'
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Rook.cpp(5,44): error C2660: 'Piece::IsSameRow': function does not take 1 arguments
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Piece.h(19,7):
+  see declaration of 'Piece::IsSameRow'
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Rook.cpp(5,44):
+  while trying to match the argument list '(Tile)'
+  
+  Source.cpp
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Source.cpp(7,10): error C1083: Cannot open include file: 'Pipe.h': No such file or directory
+  Tile.cpp
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,13): error C2065: 'Tile': undeclared identifier
+  (compiling source file 'Tile.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,7): error C2923: 'std::array': 'Tile' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Tile.cpp')
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(10,13):
+  see declaration of 'Tile'
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,13): error C2065: 'Tile': undeclared identifier
+  (compiling source file 'Tile.cpp')
+  
+C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,7): error C2923: 'std::array': 'Tile' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Tile.cpp')
+  C:\Users\Cyber_User\Desktop\MagshimimY2\ChessDominikAndOmer\Board.h(14,13):
+  see declaration of 'Tile'
+  
+  Generating Code...
