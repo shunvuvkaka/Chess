@@ -105,3 +105,33 @@ bool Piece::IsNotEating(Tile newTile)
 		return(islower(newTile.GetOccupyingPiece()));
 	}
 }
+
+bool Piece::KnightMovement(Tile newTile)
+{
+	bool res = false;
+	if (abs(newTile.GetName()[0] - this->_pos.GetName()[0]) == 1)
+	{
+		res = abs(newTile.GetName()[1] - this->_pos.GetName()[1]) == 2;
+	}
+	if (abs(newTile.GetName()[1] - this->_pos.GetName()[1]) == 1)
+	{
+		res = abs(newTile.GetName()[0] - this->_pos.GetName()[0]) == 2;
+	}
+	return res;
+}
+
+bool Piece::PawnEatMovement(Tile newTile, bool def = false)
+{
+	bool res = false;
+
+	res = (this->_pos.GetName()[0] - 1 == newTile.GetName()[0]) || (this->_pos.GetName()[0] + 1 == newTile.GetName()[0]);
+	if (isupper(this->_pos.GetOccupyingPiece() || def)//WHY NO GIT WORK GOOD
+	{
+		res = (this->_pos.GetName()[1] + 1 == newTile.GetName()[1]);
+	}
+	else
+	{
+		res = (this->_pos.GetName()[1] - 1 == newTile.GetName()[1]);
+	}
+	return res;
+}

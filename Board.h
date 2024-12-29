@@ -8,10 +8,11 @@
 class Board
 {
 public:
-	std::array<Tile, 2> GetMessageFromBoard(std::string msg);//e4d5
+	std::array<Tile, 2> GetMessageFromBoard(std::string msg);
 	std::string SendMsgToBoard();
 	std::string GetBoardString();
 	std::array<Tile, SIZE_OF_BOARD> GetBoard();
+	Tile operator[] (const int index);
 
 protected:
 	std::array<Tile,SIZE_OF_BOARD> _board;

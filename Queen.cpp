@@ -2,5 +2,10 @@
 
 bool Queen::IsValidMove(Tile newTile)
 {
-    return this->IsDiagonal(newTile) || this->IsSameRow(newTile) || this->IsSameCol(newTile);
+    bool res = this->IsDiagonal(newTile) || this->IsSameRow(newTile) || this->IsSameCol(newTile);
+    if (res)
+    {
+        this->setPos(newTile);
+    }
+    return res;
 }

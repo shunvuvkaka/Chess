@@ -6,5 +6,6 @@ bool Bishop::IsValidMove(Tile newTile)
 	{
 		return false;
 	}
+	this->setPos(newTile);
 	return this->IsDiagonal(newTile);
 }

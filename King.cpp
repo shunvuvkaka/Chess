@@ -24,20 +24,44 @@ bool King::IsValidMove(Tile newTile)
 		this->_pos = temp;
 		res = false;
 	}
+	this->setPos(newTile);
 	return res;
 }
 
 bool King::IsCheck()
 {
-	std::string myString = gameboard.GetBoardString();
+	std::string myString = gameboard.GetBoardString();//RKBQKBKRPPPPPPPP######################pppppppprkbqkbkr
+	char curr = ' ';
+	bool res = false;
 	for (int i = 0; i < 64; i++)
 	{
-		if ((this->_isWhite == true && islower(myString[i])))
+		switch (myString[i])
 		{
-			if (gameboard.GetBoard()[i])
-			{
-
-			}
+		case 'R':
+			res = !(this->_isWhite) && (this->IsSameRow(gameboard[i]) || this->IsSameCol(gameboard[i]));
+		case 'N':
+			res = !(this->_isWhite) && (this->KnightMovement(gameboard[i]));
+		case 'B':
+			res = !(this->_isWhite) && (this->IsDiagonal(gameboard[i]));
+		case 'Q':
+			res = !(this->_isWhite) && (this->IsSameRow(gameboard[i]) || this->IsSameCol(gameboard[i]) || this->IsDiagonal(gameboard[i]));
+		case 'P':
+			res = !(this->_isWhite) && (this->PawnEatMovement(gameboard[i], true));
+		case 'p':
+			res = this->_isWhite && this->PawnEatMovement(gameboard[i], true);
+		case 'q':
+			res = (this->_isWhite) && (this->IsSameRow(gameboard[i]) || this->IsSameCol(gameboard[i]) || this->IsDiagonal(gameboard[i]));
+		case 'b':
+			res = (this->_isWhite) && (this->IsDiagonal(gameboard[i]));
+		case 'n':
+			res = (this->_isWhite) && (this->KnightMovement(gameboard[i]));
+		case 'r':
+			res = (this->_isWhite) && (this->IsSameRow(gameboard[i]) || this->IsSameCol(gameboard[i]));
+		default:
+		}
+		if (res)
+		{
+			return true;
 		}
 	}
 	return false;

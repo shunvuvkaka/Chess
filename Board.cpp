@@ -22,6 +22,19 @@ std::array<Tile, 64> Board::GetBoard()
     return this->_board;
 }
 
+Tile Board::operator[](const int index)
+{
+    int count = 0;
+   for (auto& curr : this->_board)
+   {
+       if (count == index)
+       {
+           return curr;
+       }
+       count++;
+   }
+}
+
 std::string Board::GetBoardString()
 {
     std::string res = "";

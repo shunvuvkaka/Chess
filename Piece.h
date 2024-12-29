@@ -21,6 +21,9 @@ public:
 	bool IsSameCol(Tile newTile);
 	bool IsDiagonal(Tile newTile);
 	bool IsNotEating(Tile newTile);
+	bool KnightMovement(Tile newTile);
+	bool PawnEatMovement(Tile newTile, bool def = false);
+
 
 protected:
 	bool _isWhite;
