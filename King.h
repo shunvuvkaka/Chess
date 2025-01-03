@@ -12,7 +12,7 @@
 class King : public Piece
 {
 public:
-    bool IsValidMove(Tile newTile) override;
+    virtual bool IsValidMove(Tile newTile) override;
     bool IsCheck();
     bool IsCloseCol(Tile newTile);
     bool IsCloseRow(Tile newTile);

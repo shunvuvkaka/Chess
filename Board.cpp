@@ -5,7 +5,7 @@
 #include <array>
 
 
-Board gameboard;
+//Board gameboard;
 
 
 

@@ -3,6 +3,6 @@
 class Knight : public Piece
 {
 public:
-	bool IsValidMove(Tile newTile) override;
+	virtual bool IsValidMove(Tile newTile) override;
 };
 

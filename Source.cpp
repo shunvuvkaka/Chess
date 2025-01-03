@@ -13,16 +13,10 @@ in order to read and write information from and to the Backend
 #include <iostream>
 #include <array>
 
-using std::cout;
-using std::endl;
-using std::string;
+
 
 
 void main()
 {
-	int i = 0;
-	for (i = 0; i < 10; i++)
-	{
-		std:cout << "Niggor";
-	}
+	
 }

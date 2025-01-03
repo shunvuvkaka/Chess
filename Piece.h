@@ -5,10 +5,10 @@
 #include <iostream>
 #include <string>
 #include <cctype>
-#include "King.h"
-#include "Queen.h"
-#include "Rook.h"
-#include "Bishop.h"
+//#include "King.h"
+//#include "Queen.h"
+//#include "Rook.h"
+//#include "Bishop.h"
 
 
 class Piece
