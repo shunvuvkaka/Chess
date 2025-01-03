@@ -1,9 +1,4 @@
-#include "Piece.h"
-#include "Board.h"
 #include "Tile.h"
-#include <string>
-#include <iostream>
-#include <array>
 
 Tile::Tile()
 {

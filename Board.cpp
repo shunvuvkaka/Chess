@@ -1,12 +1,4 @@
 #include "Board.h"
-#include "Tile.h"
-#include <string>
-#include <iostream>
-#include <array>
-
-
-//Board gameboard;
-
 
 
 Board::Board()
@@ -27,7 +19,7 @@ Board::~Board()
 {
     for (int i = 0; i < SIZE_OF_BOARD; i++) 
     {
-        delete &this->_board[i];
+        //delete &this->_board[i];
     }
 }
 
@@ -53,7 +45,7 @@ std::array<Tile, 2> Board::GetMessageFromBoard(std::string msg)
 
 std::string Board::SendMsgToBoard()
 {
-    
+    return "nigger";
 }
 
 std::array<Tile, 64> Board::GetBoard()
@@ -85,3 +77,4 @@ std::string Board::GetBoardString()
 }
 
 
+Board gameboard;

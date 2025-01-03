@@ -1,8 +1,6 @@
 #pragma once
-#include "Tile.h"
 #include <iostream>
 #include <array>
-#include <iostream>
 #include <string>
 #include "Piece.h"
 #include "Board.h"

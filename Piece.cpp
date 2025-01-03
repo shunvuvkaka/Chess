@@ -124,12 +124,12 @@ bool Piece::KnightMovement(Tile newTile)
 	return res;
 }
 
-bool Piece::PawnEatMovement(Tile newTile, bool def = false)
+bool Piece::PawnEatMovement(Tile newTile, bool def)
 {
 	bool res = false;
 
 	res = (this->_pos.GetName()[0] - 1 == newTile.GetName()[0]) || (this->_pos.GetName()[0] + 1 == newTile.GetName()[0]);
-	if (isupper(this->_pos.GetOccupyingPiece()) || def)//WHY NO GIT WORK GOOD
+	if (isupper(this->_pos.GetOccupyingPiece()) || def)
 	{
 		res = (this->_pos.GetName()[1] + 1 == newTile.GetName()[1]);
 	}

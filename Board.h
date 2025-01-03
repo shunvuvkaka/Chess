@@ -30,4 +30,4 @@ protected:
 	std::array<Tile,SIZE_OF_BOARD> _board;
 };
 
-//extern Board gameboard;
+extern Board gameboard;

@@ -2,5 +2,5 @@
 
 bool Knight::IsValidMove(Tile newTile)
 {
-    return ;
+    return this->KnightMovement(newTile);
 }

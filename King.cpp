@@ -1,5 +1,5 @@
 #include "King.h"
-#include "Board.h"
+
 
 
 bool King::IsValidMove(Tile newTile)
@@ -48,7 +48,7 @@ bool King::IsCheck()
             break;
         case WHITE_QUEEN:
             res = !(this->_isWhite) && (this->IsSameRow(gameboard[i]) || this->IsSameCol(gameboard[i]) || this->IsDiagonal(gameboard[i]));
-            break;//e4
+            break;
         case WHITE_PAWN:
             res = !(this->_isWhite) && (this->PawnEatMovement(gameboard[i], true));
             break;

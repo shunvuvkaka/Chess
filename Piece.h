@@ -2,13 +2,8 @@
 #include "Tile.h"
 #include <iostream>
 #include <array>
-#include <iostream>
 #include <string>
 #include <cctype>
-//#include "King.h"
-//#include "Queen.h"
-//#include "Rook.h"
-//#include "Bishop.h"
 
 
 class Piece
@@ -26,7 +21,7 @@ public:
 	bool IsDiagonal(Tile newTile);
 	bool IsNotEating(Tile newTile);
 	bool KnightMovement(Tile newTile);
-	bool PawnEatMovement(Tile newTile, bool def = false);
+	bool PawnEatMovement(Tile newTile, bool def);
 
 
 protected:
