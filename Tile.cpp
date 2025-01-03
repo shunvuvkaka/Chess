@@ -41,3 +41,8 @@ void Tile::SetOccupyingPiece(char newPiece)
 {
 	this->_OccupyingPiece = newPiece;
 }
+
+void Tile::SetName(std::string newName)
+{
+	this->_name = newName;
+}

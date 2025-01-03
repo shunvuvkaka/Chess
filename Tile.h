@@ -17,7 +17,7 @@ public:
 	char GetOccupyingPiece();
 	std::string GetName();
 	void SetOccupyingPiece(char newPiece);
-
+	void SetName(std::string newName);
 protected:
 	char _OccupyingPiece;
 	std::string _name;

@@ -1,5 +1,11 @@
 #include "Rook.h"
 
+Rook::Rook(Tile pos, bool isWhite, bool hasMoved)
+	: Piece(pos, isWhite, 'R')
+{
+	this->_hasMoved = hasMoved;
+}
+
 bool Rook::IsValidMove(Tile newTile)
 {
 	if (this->IsNotEating(newTile))
